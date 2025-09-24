@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Altcha</title>
+    
+    <!-- Include Altcha Library -->
+    <script src="https://cdn.jsdelivr.net/gh/altcha-org/altcha/dist/altcha.min.js" type="module"></script>
+</head>
+<body>
+        <h1>Contact Us</h1>
+    <form action="https://api.staticforms.xyz/submit" method="POST">
+        <div>
+            <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+        <div>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            </div>
+
+        <!-- Altcha Widget - Just add this one line! -->
+        <altcha-widget 
+            challengeurl="https://www.staticforms.xyz/api/altcha/challenge?apiKey=YOUR_API_KEY_HERE"
+            name="altchaToken">
+        </altcha-widget>
+
+        <input type="hidden" name="apiKey" value="YOUR_API_KEY_HERE">
+        <button type="submit">Send Message</button>
+        </form>
+</body>
+</html>
