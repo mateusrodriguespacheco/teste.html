@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(83, 27, 27);
+}
+
+p{
+    font-size: 30px;
+}
+
+.citacao {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+}
+.citacao2 {
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+}
+p.corFundo {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#titulo{
+    color: rgb(107, 0, 0);
+    text-shadow: 5px 5px 5px #000000;
+    text-align: center;
+    font-family:"Kablammo", system-ui;
+    font-size: 50px;
+
+}
+article p {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+ol > li > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+h2,h3, h1 {
+    background-color: rgb(170, 0, 0);
+    color: #000000;
+}
+p, article p {
+    color: rgb(0, 0, 0);
+}

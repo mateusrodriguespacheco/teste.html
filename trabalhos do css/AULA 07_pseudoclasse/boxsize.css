@@ -1,0 +1,25 @@
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid 5px rgb(58, 43, 43);
+    margin: 5px;
+     display:inline-block;
+}
+
+.box1 {
+    box-sizing: border-box;
+background-color: blue;
+
+}
+
+.box3 {
+    background-color: chartreuse;
+    box-sizing: content-box;
+}
+
+
+
+body {
+    background-color: rgba(66, 42, 22, 0.589);
+}
