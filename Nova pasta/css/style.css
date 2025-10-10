@@ -1,0 +1,57 @@
+
+ *{
+     font-family: "Bungee Spice", sans-serif;
+     font-size: 20px;
+}
+body {
+    background-color: rgba(255, 254, 253, 0.792);
+}
+h1 {
+     font-family: "Creepster", system-ui;
+     color: rgb(255, 255, 255);
+}
+
+.container1 {
+    margin: 30px;
+    background-color: rgb(151, 151, 151);
+    border: solid 1px black;
+    width: 900px;
+    height: 210px;
+
+}
+
+
+.container2 {
+    margin: 30px;
+    background-color: rgb(151, 151, 151);
+    border: solid 1px black;
+    width: 900px;
+    height: 210px;
+}
+
+.container {
+    height: 210;
+    width: 100;
+    border: double 10px;
+    width: 999px;
+    height: 800px;
+}
+
+    .container3 {
+ margin: 30px;
+    background-color: rgb(151, 151, 151);
+    border: solid 1px black;
+    width: 900px;
+    height: 210px;
+    }
+
+img {
+    border: solid 5px black;
+    width: 200px;
+    height: 210px;
+
+}
+
+input {
+    margin: 1;
+}
